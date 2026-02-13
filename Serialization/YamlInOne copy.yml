@@ -1,0 +1,30 @@
+---
+name: "mike"
+occupation: 'developer'
+age: 30
+gpa: 3.5
+fav_num: 1e+10
+male: true
+birthday: 1990-01-01
+flaws: null
+hobbies: # One way to do lists (arrays)
+  - hiking
+  - biking
+  - coding
+movies: ['star wars', 'star trek', 'starship troopers'] # Another way to do lists
+friends:
+  - name: 'joe'
+    age: 31
+    occupation: 'developer'
+  - {name: 'jane', age: 29, occupation: 'designer'}
+  - {name: 'jill', age: 30, occupation: 'manager'}
+description: > # Yaml will render this as a single string
+  Mike is a developer who enjoys hiking, biking, and coding. He is a fan of
+  star wars, star trek, and starship troopers. He has a gpa of 3.5 and a
+  favorite number of 1e+10. He has a few friends, joe, jane, and jill. Joe is
+  a developer, jane is a designer, and jill is a manager. Mike was born on
+  1990-01-01 and is currently 30 years old.
+signature: |
+  Mike
+  Developer
+  email: mike@developer.com

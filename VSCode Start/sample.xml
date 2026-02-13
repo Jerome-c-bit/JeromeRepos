@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+     <version>2.1</version>
+     <jobs>
+         <build>
+             <docker>
+                 <image>cimg/base:2023.03</image>
+             </docker>
+             <steps>checkout</steps>
+             <steps>
+                 <run>echo "this is the build job"</run>
+             </steps>
+         </build>
+         <test>
+             <docker>
+                 <image>cimg/base:2023.03</image>
+             </docker>
+             <steps>checkout</steps>
+             <steps>
+                 <run>echo "this is the test job"</run>
+             </steps>
+         </test>
+     </jobs>
+     <workflows>
+         <build_and_test>
+             <jobs>build</jobs>
+             <jobs>test</jobs>
+         </build_and_test>
+     </workflows>
+ </root>

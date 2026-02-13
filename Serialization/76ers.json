@@ -1,0 +1,48 @@
+{
+  "team": "76ers",
+  "city": "Philadelphia",
+  "year_founded": 1946,
+  "is_current_champion": false,
+  "background":
+    "Founded in 1946 and originally known as the Syracuse Nationals, the Philadelphia 76ers are one of the oldest franchises in the NBA. \n",
+
+  "organization_history": "Syracuse Nationals\n1946–1963\n\nPhiladelphia 76ers\n1963–present\n",
+  "famous_players1": [
+    "Wilt Chamberlain",
+    "Julius Erving",
+    "Allen Iverson"
+  ],
+  "famous_players2": [
+    {
+      "name": "Wilt Chamberlain",
+      "position": "Center",
+      "number": 13,
+      "years_played": "1959–1962",
+      "championships": 1
+    },
+    {
+      "name": "Julius Erving",
+      "position": "Small Forward",
+      "number": 6,
+      "years_played": "1976–1987",
+      "championships": 1
+    },
+    {
+      "name": "Allen Iverson",
+      "position": "Shooting Guard",
+      "number": 3,
+      "years_played": "1996–2006, 2009–2010",
+      "championships": 0
+    }
+  ],
+  "famous_players3": [
+    "Wilt Chamberlain",
+    "Julius Erving",
+    "Allen Iverson"
+  ],
+  "management_staff": {
+    "general_manager": "Elton Brand",
+    "president": "Chris Heck",
+    "head_coach": "Doc Rivers"
+  }
+}
